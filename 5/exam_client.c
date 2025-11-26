@@ -69,7 +69,6 @@ int main() {
         
         if (strcmp(buffer, "AUTH_SUCCESS") == 0) {
             printf("Authentication successful!\n");
-              printf("\n!!!!! Exam Session Started !!!!!\n");
             
             // Receive welcome message
             memset(buffer, 0, BUFFER_SIZE);
